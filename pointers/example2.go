@@ -33,8 +33,8 @@ Jon
 */
 
 /*
-**fmt.Println(newPerson("Jon").name)** vs **fmt.Println(*newPerson("Jon").name)**
+fmt.Println(newPerson("Jon").name) vs fmt.Println(*newPerson("Jon").name)
 
-**fmt.Println(newPerson("Jon").name)** accesses the name field directly from the person struct pointer without dereferencing it, while **fmt.Println(*newPerson("Jon").name)** attempts to dereference the pointer, which is invalid for non-pointer types like strings.
+fmt.Println(newPerson("Jon").name) accesses the name field directly from the person struct pointer without dereferencing it, while fmt.Println(*newPerson("Jon").name) attempts to dereference the pointer, which is invalid for non-pointer types like strings.
 *newPerson("Jon").name is invalid, it's trying to dereference a string, which is not a pointer type.
  */
