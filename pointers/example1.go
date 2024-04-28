@@ -27,3 +27,15 @@ func main() {
 	fmt.Println("address of age variable:", &age)
 
 }
+
+/*
+
+initial: 30
+after my_age func call: 30
+after my_age_pointer func call: 40
+after my_age_pointer func call: 40
+address of age variable: 0xc0000120b0
+
+*/
+
+
