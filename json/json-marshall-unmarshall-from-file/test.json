@@ -1,0 +1,32 @@
+[
+    {
+        "criteria": [
+            "id^=apple_iphone",
+            "id*=subhw2g",
+            "brand_name=Apple",
+            "model_name=iPhone 2G"
+        ],
+        "js_check_functs": [
+            "_window.screen.height==480",
+            "_window.devicePixelRatio==1",
+            "_navigator.geolocation==false",
+            "_window.history.pushState==false"
+        ],
+        "name": "iPhone 2G",
+        "webgl": null
+    },
+    {
+        "name": "iPad Pro 13 2024",
+        "criteria": [
+            "id^=apple_ipad",
+            "id*=subhwpro713",
+            "brand_name=Apple",
+            "model_name=iPad Pro 13 (2024)"
+        ],
+        "webgl": null,
+        "js_check_functs": [
+            "_window.screen.height==1376",
+            "_window.devicePixelRatio==2"
+        ]
+    }
+]

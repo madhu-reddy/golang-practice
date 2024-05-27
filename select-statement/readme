@@ -1,0 +1,5 @@
+
+Go’s select lets you wait on multiple channel operations. 
+Combining goroutines and channels with select is a powerful feature of Go.
+
+The syntax is similar to typical switch statement, the difference is what switch case does on control statements, select does for channels and contexts.
